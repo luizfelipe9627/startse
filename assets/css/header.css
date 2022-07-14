@@ -40,10 +40,37 @@ header {
 @media (min-width: 320px) and (max-width: 767px) {
   .container-header {
     max-width: 100vw;
+    position: relative;
+    z-index: -999;
   }
 
   .container-header nav {
-    display: none;
+    opacity: 0;
+    display: flex;
+    padding: 0 1.25rem;
+    height: 30vh;
+    background-color: var(--color-blue-opacity);
+    position: absolute;
+    right: -1.5313rem;
+    top: 2.9375rem;
+    justify-content: left;
+    transition: 0.25s ease-in-out;
+  }
+
+  .container-header ul {
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  .container-header li a {
+    margin-left: 0;
+    font-size: 1.25rem;
+  }
+
+  .container-header li a:hover {
+    font-weight: bold;
+    border-bottom: 0.125rem solid var(--color-white);
   }
 
   .menu-hamburguer {
