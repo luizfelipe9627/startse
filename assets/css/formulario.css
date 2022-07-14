@@ -1,0 +1,72 @@
+.container-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 75vw;
+  height: 110vh;
+  margin: auto;
+}
+
+.formulario {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario h1 {
+  font-size: 45px;
+}
+
+.formulario p {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--color-gray);
+  margin-bottom: 20px;
+}
+
+.container-form input[type="text"], .container-form input[type="email"] {
+  margin-bottom: 10px;
+}
+
+.container-form input, .container-form button {
+  width: 100%;
+  border-radius: 17px;
+  outline: none;
+  padding: 10px;
+  border: 2px solid var(--color-blue);
+}
+
+.container-form button {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  font-size: 17px;
+}
+
+.container-form button:hover {
+  font-weight: bold;
+  background-color: var(--color-blue-opacity);
+  border: none;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .container-form {
+    height: 0;
+  }
+
+  .container-cards {
+    padding-top: 550px;
+  }
+
+  .container-form h1 {
+    padding-top: 600px
+  }
+  
+  .formulario h1 {
+    font-size: 37px;
+  }
+
+  .vetor {
+    display: none;
+  }
+}
+

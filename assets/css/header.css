@@ -1,0 +1,105 @@
+header {
+  width: 100vw;
+  position: fixed;
+  padding: 25px;
+  background-color: var(--color-blue);
+  z-index: 999;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75vw;
+  margin: auto;
+}
+
+.container-header ul {
+  display: flex;
+}
+
+.container-header li {
+  width: 100px;
+}
+
+.container-header li a {
+  text-transform: uppercase;
+  color: var(--color-white);
+  margin-left: 50px;
+  font-size: 17px;
+}
+
+.container-header li a:hover {
+  font-weight: bold;
+}
+
+.menu-hamburguer {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .container-header {
+    max-width: 100vw;
+  }
+
+  .container-header nav {
+    display: none;
+  }
+
+  .menu-hamburguer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #checkbox-menu {
+    position: absolute;
+    opacity: 0;
+  }
+
+  #checkbox-menu:checked + label span:nth-child(1) {
+    transform: rotate(-45deg);
+    top: 8px;
+  }
+
+  #checkbox-menu:checked + label span:nth-child(2) {
+    opacity: 0;
+  }
+
+  #checkbox-menu:checked + label span:nth-child(3) {
+    transform: rotate(45deg);
+    top: 8px;
+  }
+
+  .container-header label {
+    position: relative;
+    display: block;
+    height: 20px;
+    width: 25px;
+    cursor: pointer;
+  }
+
+  .container-header label span {
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+    transition: 0.25s ease-in-out;
+  }
+
+  .container-header label span:nth-child(1) {
+    top: 0;
+  }
+
+  .container-header label span:nth-child(2) {
+    top: 8px;
+  }
+
+  .container-header label span:nth-child(3) {
+    top: 16px;
+  }
+
+}

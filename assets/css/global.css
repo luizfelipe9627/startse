@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', 'Times New Roman';
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+::placeholder {
+  font-size: 17px;
+}
+
+:root {
+--color-blue: #0080ED;
+--color-blue-opacity: #007eedc7;
+--color-white: #FFF;
+--color-black: #000;
+--color-gray: #838383;
+}
