@@ -8,44 +8,42 @@
 }
 
 .formulario {
-  max-width: 350px;
+  max-width: 21.875rem;
   display: flex;
   flex-direction: column;
 }
 
 .formulario h1 {
-  font-size: 45px;
+  font-size: 2.8125rem;
 }
 
 .formulario p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
   color: var(--color-gray);
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .container-form input[type="text"], .container-form input[type="email"] {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .container-form input, .container-form button {
   width: 100%;
-  border-radius: 17px;
-  outline: none;
-  padding: 10px;
-  border: 2px solid var(--color-blue);
+  border-radius: 1.0625rem;
+  padding: 0.625rem;
+  border: 0.125rem solid var(--color-blue);
 }
 
 .container-form button {
   background-color: var(--color-blue);
   color: var(--color-white);
-  font-size: 17px;
+  font-size: 1.0625rem;
 }
 
 .container-form button:hover {
   font-weight: bold;
   background-color: var(--color-blue-opacity);
-  border: none;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
@@ -54,15 +52,15 @@
   }
 
   .container-cards {
-    padding-top: 550px;
+    padding-top: 34.375rem;
   }
 
   .container-form h1 {
-    padding-top: 600px
+    padding-top: 37.5rem
   }
   
   .formulario h1 {
-    font-size: 37px;
+    font-size: 2.3125rem;
   }
 
   .vetor {

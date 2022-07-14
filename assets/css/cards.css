@@ -3,18 +3,18 @@
   max-width: 75vw;
   flex-wrap: wrap;
   margin: auto;
-  grid-template-columns: 340px 340px 340px;
-  gap: 20px;
+  grid-template-columns: 21.25rem 21.25rem 21.25rem;
+  gap: 1.25rem;
 }
 
 .card-item {
   transition: 1s all ease;
-  box-shadow: 5px 5px 15px -4px #000000;
+  box-shadow: 0.3125rem 0.3125rem 0.9375rem -0.25rem #000000;
   cursor: pointer;
 }
 
 .card-item p {
-  padding: 20px 20px 20px 20px;
+  padding: 1.25rem 1.25rem 1.25rem 1.25rem;
   color: var(--color-gray);
 }
 
@@ -27,7 +27,7 @@
 }
 
 .card-item:hover{
-  transform: translateY(-10px);
+  transform: translateY(-0.625rem);
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

@@ -3,20 +3,20 @@
   justify-content: center;
   max-width: 35vw;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .contato h1 {
   text-align: center;
-  margin: 30px 0 0 0;
-  font-size: 37px;
+  margin: 1.875rem 0 0 0;
+  font-size: 2.3125rem;
 }
 
 .contato p {
   text-align: center;
-  max-width: 500px;
+  max-width: 31.25rem;
   color: var(--color-gray);
-  margin: 30px auto;
+  margin: 1.875rem auto;
 }
 
 .container-contato form {
@@ -26,11 +26,10 @@
 
 .container-contato input {
  width: 30vw;
- margin: 0 0 10px 0;
- padding: 10px;
- outline: none;
- border-radius: 5px;
- border: 1px solid var(--color-black);
+ margin: 0 0 0.625rem 0;
+ padding: 0.625rem;
+ border-radius: 0.3125rem;
+ border: 0.0625rem solid var(--color-black);
 }
 
 .container-contato label {
@@ -42,31 +41,29 @@
 }
 
 .container-contato textarea {
-  padding: 10px;
-  outline: none;
-  border-radius: 5px;
-  border: 1px solid var(--color-black);
+  padding: 0.625rem;
+  border-radius: 0.3125rem;
+  border: 0.0625rem solid var(--color-black);
 }
 
 .buttons {
   display: flex;
   justify-content: space-evenly;
-  margin: 20px 0;
+  margin: 1.875rem 0;
 }
 
 .container-contato button {
   width: 10vw;
-  border-radius: 17px;
-  outline: none;
-  padding: 10px;
-  border: none;
+  border-radius: 1.0625rem;
+  padding: 0.625rem;
   background-color: var(--color-blue);
   color: var(--color-white);
-  font-size: 17px;
+  font-size: 1.0625rem;
 }
 
 .container-contato button:hover {
   font-weight: bold;
+  background-color: var(--color-blue-opacity);
 }
 
 @media (min-width: 320px) and (max-width: 768px) {

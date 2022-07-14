@@ -9,7 +9,7 @@ footer {
   flex-wrap: wrap;
   max-width: 80vw;
   margin: auto;
-  padding: 40px;
+  padding: 2.5rem;
 }
 
 .container-footer nav {
@@ -22,8 +22,8 @@ footer {
 }
 
 .container-footer li:not(.title) {
-  padding-top: 7px;
-  font-size: 18px;
+  padding-top: 0.4375rem;
+  font-size: 1.125rem;
 }
 
 .container-footer li a {
@@ -37,7 +37,7 @@ footer {
 .container-footer ul .title {
   color: var(--color-white);
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .redes {
@@ -45,13 +45,13 @@ footer {
 }
 
 .facebook {
-  margin: 0 20px;
+  margin: 0 1.25rem;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
 
   .container-footer {
-    padding: 40px 0;
+    padding: 2.5rem 0;
     justify-content: left;
     flex-direction: column;
   }
@@ -66,17 +66,17 @@ footer {
   }
 
   .title {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 
   .redes {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 }
 
 @media (width: 768px) {
   .container-footer {
     max-width: 100vw;
-    padding: 40px 0;
+    padding: 2.5rem 0;
   }
 }
