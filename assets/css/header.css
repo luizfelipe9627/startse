@@ -41,36 +41,34 @@ header {
   .container-header {
     max-width: 100vw;
     position: relative;
-    z-index: -999;
   }
 
   .container-header nav {
-    opacity: 0;
-    display: flex;
-    padding: 0 1.25rem;
-    height: 30vh;
-    background-color: var(--color-blue-opacity);
+    display: none;
+    width: 100vw;
+    background-color: var(--color-blue);
     position: absolute;
     right: -1.5313rem;
     top: 2.9375rem;
-    justify-content: left;
     transition: 0.25s ease-in-out;
   }
 
   .container-header ul {
     flex-direction: column;
-    justify-content: space-evenly;
-    text-align: center;
   }
 
   .container-header li a {
     margin-left: 0;
     font-size: 1.25rem;
+    height: 3.75rem;
+    font-size: 1.25rem;
+    margin-left: 1.875rem;
   }
 
-  .container-header li a:hover {
-    font-weight: bold;
-    border-bottom: 0.125rem solid var(--color-white);
+  .container-header li {
+    padding: 1.25rem 0;
+    border-top: 0.125rem solid var(--color-white);
+    width: 100vw;
   }
 
   .menu-hamburguer {

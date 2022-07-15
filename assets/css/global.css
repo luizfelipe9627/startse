@@ -11,6 +11,14 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+body::-webkit-scrollbar {
+  width: 0.625rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-blue);
+}
+
 a {
   text-decoration: none;
 }
