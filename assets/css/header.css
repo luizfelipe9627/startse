@@ -80,7 +80,7 @@ header {
 
   #checkbox-menu {
     position: absolute;
-    opacity: 0;
+    display: none;
   }
 
   #checkbox-menu:checked + label span:nth-child(1) {
@@ -89,7 +89,7 @@ header {
   }
 
   #checkbox-menu:checked + label span:nth-child(2) {
-    opacity: 0;
+    display: none;
   }
 
   #checkbox-menu:checked + label span:nth-child(3) {
@@ -102,7 +102,6 @@ header {
     display: block;
     height: 1.25rem;
     width: 1.5625rem;
-    cursor: pointer;
   }
 
   .container-header label span {
@@ -113,6 +112,7 @@ header {
     background-color: white;
     border-radius: 1.875rem;
     transition: 0.25s ease-in-out;
+    cursor: pointer;
   }
 
   .container-header label span:nth-child(1) {
