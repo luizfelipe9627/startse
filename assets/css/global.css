@@ -5,6 +5,11 @@
   outline: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
 body {
   font-family: 'Source Sans Pro', 'Times New Roman';
   text-rendering: optimizeLegibility;
@@ -32,7 +37,7 @@ button {
 }
 
 ::placeholder {
-  font-size: 1.0625rem;
+  font-size: 17px;
 }
 
 :root {
@@ -41,4 +46,14 @@ button {
 --color-white: #FFF;
 --color-black: #000;
 --color-gray: #838383;
+}
+
+fieldset {
+  border-radius: 0.125rem;
+  border: 0.0625rem solid var(--color-black);
+  margin-bottom: 0.625rem;
+}
+
+fieldset legend {
+  margin-left: 0.625rem;
 }

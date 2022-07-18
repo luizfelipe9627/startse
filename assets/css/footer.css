@@ -7,7 +7,7 @@ footer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  max-width: 80vw;
+  max-width: 85vw;
   margin: auto;
   padding: 2.5rem;
 }

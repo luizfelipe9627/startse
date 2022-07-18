@@ -24,16 +24,10 @@
   flex-direction: column;
 }
 
-.container-contato input {
+.container-contato input, textarea {
  width: 30vw;
- margin: 0 0 0.625rem 0;
- padding: 0.625rem;
- border-radius: 0.3125rem;
- border: 0.0625rem solid var(--color-black);
-}
-
-.container-contato label {
-  color: var(--color-black);
+ padding: 0rem 0.625rem 0.625rem 0.625rem;
+ border: transparent;
 }
 
 .container-contato span {
@@ -41,15 +35,13 @@
 }
 
 .container-contato textarea {
-  padding: 0.625rem;
-  border-radius: 0.3125rem;
-  border: 0.0625rem solid var(--color-black);
+  padding: 0.3125rem 0.625rem;
 }
 
 .buttons {
   display: flex;
   justify-content: space-evenly;
-  margin: 1.875rem 0;
+  margin: 1.25rem 0 1.875rem 0;
 }
 
 .container-contato button {
@@ -77,10 +69,6 @@
 
   .container-contato input, .container-contato textarea {
     width: 70vw;
-  }
-
-  .container-contato label {
-    width: 100%;
   }
 
   .container-contato button {
