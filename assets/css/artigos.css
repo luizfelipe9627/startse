@@ -7,6 +7,12 @@
   gap: 1.25rem;
 }
 
+.cards h1 {
+  text-align: center;
+  font-size: 2.3125rem;
+  margin: 2.5rem 0;
+}
+
 .card-item {
   transition: 1s all ease;
   box-shadow: 0.3125rem 0.3125rem 0.9375rem -0.25rem #000000;

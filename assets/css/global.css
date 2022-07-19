@@ -7,7 +7,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 5rem;
+  scroll-padding-top: 6rem;
 }
 
 body {
@@ -37,7 +37,7 @@ button {
 }
 
 ::placeholder {
-  font-size: 17px;
+  font-size: 1.0625rem;
 }
 
 :root {
@@ -50,7 +50,7 @@ button {
 
 fieldset {
   border-radius: 0.125rem;
-  border: 0.0625rem solid var(--color-black);
+  border: 0.125rem solid var(--color-blue-opacity);
   margin-bottom: 0.625rem;
 }
 
